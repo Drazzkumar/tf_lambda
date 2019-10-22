@@ -10,7 +10,7 @@ resource "aws_s3_bucket_object" "tf_testr_pcm_bucket" {
 
 data "archive_file" "pcm_vendor_layer" {
   type        = "zip"
-  source_dir  = "vendors/"
+  source_dir  = "vendor/"
   output_path = "zip_files/vendor_layer.zip"
 }
 

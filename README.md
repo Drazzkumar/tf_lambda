@@ -1,6 +1,6 @@
 # Terraform lambda infrastructure and deployment with layers
 
-## Initliazation of terraform
+## Initialization of terraform
 
 ```bash
     terraform init
@@ -26,4 +26,3 @@
     terraform plan -out "lambda.plan"
     terraform apply "lambda.plan"
 ```
-

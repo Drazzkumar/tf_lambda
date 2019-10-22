@@ -1,6 +1,6 @@
 provider "aws" {
-  profile = "pcm"
-  region  = "ap-south-1"
+  profile = "${var.profile}"
+  region  = "${var.region}"
 }
 
 module "pcm_post_lambda" {
