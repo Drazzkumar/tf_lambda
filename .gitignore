@@ -1,5 +1,6 @@
 .vscode
 .terraform
+terraform.tfstate*
 sheets
 test
 region.txt
